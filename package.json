@@ -1,0 +1,18 @@
+{
+  "name": "car-park",
+  "version": "0.0.22",
+  "description": "基于行云系统对部分模块进行封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:carPark": "vue-cli-service build --target lib ./index.js --name carPark --dest dist/carPark"
+  },
+  "keywords": [
+    "行云",
+    "在场车",
+    "固定车",
+    "黑名单"
+  ],
+  "author": "xiaosf",
+  "license": "ISC"
+}
